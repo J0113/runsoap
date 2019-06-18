@@ -8,9 +8,11 @@ RunSoap makes use of CURL.
 
 ### How do I use it?
 
+Import or Copy and Paste the function into your file
+`import runsoap.php;`
 
-`import runsoap.php; // Or however the file is called/ copy and paste the function into your PHP code.`
-
+Run the function. $mysoap will in this case be an array with the response. $XML should be the xml that is displayed in SoapUI and the $URL should be the endpoint.
 `$mysoap = runsoap($url,$xml); `
 
-`var_dump($mysoap); // Show the result`
+Display the result.
+`var_dump($mysoap);`
